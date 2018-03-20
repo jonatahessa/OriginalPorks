@@ -2,10 +2,53 @@
   #menu-desk {
     display: none;
   }
+
+  #original {
+    padding-top: 300px;
+    padding-bottom: 40px;
+  }
+
+  #button-mobile {
+  }
 }
 
 @media (min-width: 770px) {
   #menu-mobile {
     display: none;
   }
+
+  #original {
+    padding-top: 30%;
+    padding-bottom: 40px;
+  }
+
+  .hovered {
+    transition: 1s;
+  }
+
+  .hovered:hover {
+    color: white;
+  }
+}
+
+#imagem-cabecalho {
+  background: url(../_imagens/pizza-burguer.jpg) center center no-repeat fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.style-menu {
+  background: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  z-index: 149;
+}
+
+.yellow-text {
+  color: #ffcc00;
+}
+
+.nossa-casa {
+  padding-top: 100px;
 }
