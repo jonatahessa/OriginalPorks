@@ -37,34 +37,119 @@
                     <img class="img-fluid" src="./_imagens/original-logo.png" alt="Logo do Original Porks"/>
                 </div>
                 <div class="col-4 align-self-center">
-                  <div class="dropleft col-10">
-                      <button class="btn btn-light btn-sm dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span><img class="img-fluid" src="./_imagens/menu-mobile.png" alt=""></span></button>
-                      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                          <a class="dropdown-item" href="#">Home</a>
-                          <a class="dropdown-item" href="#">Promoções</a>
-                          <a class="dropdown-item" href="#">Cardápio</a>
-                          <a class="dropdown-item" href="#">Eventos</a>
-                          <a class="dropdown-item" href="#">Localização</a>
-                          <a class="dropdown-item" href="#">Contato</a>
-                      </div>
-                  </div>
+                    <div class="dropleft col-10">
+                        <button class="btn btn-light btn-sm dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span><img class="img-fluid" src="./_imagens/menu-mobile.png" alt=""></span></button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" href="#">Home</a>
+                            <a class="dropdown-item" href="#">Promoções</a>
+                            <a class="dropdown-item" href="#">Cardápio</a>
+                            <a class="dropdown-item" href="#">Eventos</a>
+                            <a class="dropdown-item" href="#">Localização</a>
+                            <a class="dropdown-item" href="#">Contato</a>
+                        </div>
+                    </div>
                 </div>
             </div>
 
             <div id="imagem-cabecalho" class="row">
-              <div class="col-12">
-                <h1 id="original" class="text-center align-self-center text-light">Original Porks</h1>
-              </div>
+                <div class="col-12">
+                    <h1 id="original" class="text-center align-self-center text-light">Original Porks</h1>
+                </div>
             </div>
 
-            <div class="row">
-              <div class="col-xs-12 col-sm-12 col-lg-5 nossa-casa">
-                <img class="img-fluid" src="./_imagens/nossa-casa.jpg" alt="Imagem do salão">
-              </div>
+            <div class="row justify-content-center papper">
+                <div class="col-xs-12 col-sm-12 col-md-10 col-lg-10 sessoes">
+                    <div class="row justify-content-center">
+                        <div class="col-xs-12 col-sm-12 col-lg-5 mobile-items-space d-xs-none d-sm-none d-md-block d-lg-block">
+                            <img id="imagem-salao" class="img-fluid" src="./_imagens/nossa-casa.jpg" alt="Imagem do salão">
+                        </div>
 
-              <div class="col-xs-12 col-sm-12 col-lg-7 nossa-casa align-self-center">
-                <p class="">Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. Se popularizou na década de 60, quando a Letraset lançou decalques contendo passagens de Lorem Ipsum, e mais recentemente quando passou a ser integrado a softwares de editoração eletrônica como Aldus PageMaker.</p>
-              </div>
+                        <div class="col-xs-12 col-sm-12 col-lg-7 align-self-center mobile-items-space">
+                            <p class="">Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. Se popularizou na década de 60, quando a Letraset lançou decalques contendo passagens de Lorem Ipsum, e mais recentemente quando passou a ser integrado a softwares de editoração eletrônica como Aldus PageMaker.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row beer-cap justify-content-center">
+                <div class="col-xs-12 col-sm-12 col-md-10 col-lg-10 sessoes">
+                    <div class="row justify-content-center">
+                        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 align-self-center background-white mobile-items-space">
+                            <h3>Cervejas Especiais</h3>
+                            <p class="">Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. Se popularizou na década de 60, quando a Letraset lançou decalques contendo passagens de Lorem Ipsum, e mais recentemente quando passou a ser integrado a softwares de editoração eletrônica como Aldus PageMaker.</p>
+                        </div>
+
+                        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 mobile-items-space d-xs-none d-sm-none d-md-block d-lg-block">
+                            <img class="img-fluid" src="./_imagens/beer.jpg" alt="Caneca com cerveja">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row justify-content-center papper">
+                <div class="col-xs-12 col-sm-12 col-md-10 col-lg-10 sessoes">
+                    <h2 class="text-center">Delightful</h2>
+                    <h1 class="text-center">EXPERIENCE</h1>
+
+                    <div class="row">
+                        <div id="destaque-pizza" class="col-xs-6 col-sm-6 col-md-3 col-lg-3 destaques">
+                            <div class="col-12 black-transparency">
+                                <h4 class="text-center text-light">Pizza</h4>
+                                <h3 class="text-center text-warning">R$ 43</h3>
+                            </div>
+                        </div>
+
+                        <div id="destaque-burguer" class="col-xs-6 col-sm-6 col-md-3 col-lg-3 destaques">
+                            <div class="col-12 black-transparency">
+                                <h4 class="text-center text-light">Hamburguer</h4>
+                                <h3 class="text-center text-warning">R$ 22</h3>
+                            </div>
+                        </div>
+
+                        <div id="destaque-baked" class="col-xs-6 col-sm-6 col-md-3 col-lg-3 destaques">
+                            <div class="col-12 black-transparency">
+                                <h4 class="text-center text-light">Baked Burguer</h4>
+                                <h3 class="text-center text-warning">R$ 25</h3>
+                            </div>
+                        </div>
+                        <div id="destaque-calzone" class="col-xs-6 col-sm-6 col-md-3 col-lg-3 destaques">
+                            <div class="col-12 black-transparency">
+                                <h4 class="text-center text-light">Calzone</h4>
+                                <h3 class="text-center text-warning">R$ 35</h3>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                      <div id="destaque-calzone2" class="col-xs-6 col-sm-6 col-md-3 col-lg-3 destaques">
+                          <div class="col-12 black-transparency">
+                              <h4 class="text-center text-light">Calzone</h4>
+                              <h3 class="text-center text-warning">R$ 35</h3>
+                          </div>
+                      </div>
+
+                      <div id="destaque-baked2" class="col-xs-6 col-sm-6 col-md-3 col-lg-3 destaques">
+                          <div class="col-12 black-transparency">
+                              <h4 class="text-center text-light">Baked Burguer</h4>
+                              <h3 class="text-center text-warning">R$ 25</h3>
+                          </div>
+                      </div>
+
+                      <div id="destaque-burguer2" class="col-xs-6 col-sm-6 col-md-3 col-lg-3 destaques">
+                          <div class="col-12 black-transparency">
+                              <h4 class="text-center text-light">Hamburguer</h4>
+                              <h3 class="text-center text-warning">R$ 22</h3>
+                          </div>
+                      </div>
+
+                        <div id="destaque-pizza2" class="col-xs-6 col-sm-6 col-md-3 col-lg-3 destaques">
+                            <div class="col-12 black-transparency">
+                                <h4 class="text-center text-light">Pizza</h4>
+                                <h3 class="text-center text-warning">R$ 43</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
     </body>

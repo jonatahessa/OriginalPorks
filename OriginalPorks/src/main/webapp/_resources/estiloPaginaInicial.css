@@ -8,7 +8,8 @@
     padding-bottom: 40px;
   }
 
-  #button-mobile {
+  .mobile-items-space {
+    margin: 50px auto;
   }
 }
 
@@ -32,7 +33,7 @@
 }
 
 #imagem-cabecalho {
-  background: url(../_imagens/pizza-burguer.jpg) center center no-repeat fixed;
+  background: url(../_imagens/pizza-burguer.jpg) center center no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -49,6 +50,107 @@
   color: #ffcc00;
 }
 
-.nossa-casa {
+.papper {
+  background: url(../_imagens/background-papper.jpg) center center no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.sessoes {
   padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.beer-cap {
+  background: url(../_imagens/beer-cap.jpg) center center no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.background-white {
+  background-color: white;
+}
+
+.destaques {
+  height: 300px;
+}
+
+.black-transparency {
+  background-color: #000;
+  opacity: 0;
+  margin: 10px auto;
+  height: 280px;
+  transition: 1s;
+}
+
+.black-transparency:hover {
+  opacity: 0.7;
+}
+
+#destaque-pizza {
+  background: url(../_imagens/back-pizza.jpg) center center no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#destaque-burguer {
+  background: url(../_imagens/back-burguer.jpg) center center no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#destaque-baked {
+  background: url(../_imagens/back-baked.jpg) center center no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#destaque-calzone {
+  background: url(../_imagens/back-calzone.jpg) center center no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#destaque-pizza2 {
+  background: url(../_imagens/back-pizza.jpg) center center no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#destaque-burguer2 {
+  background: url(../_imagens/back-burguer.jpg) center center no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#destaque-baked2 {
+  background: url(../_imagens/back-baked.jpg) center center no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#destaque-calzone2 {
+  background: url(../_imagens/back-calzone.jpg) center center no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
