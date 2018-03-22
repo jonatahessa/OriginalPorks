@@ -91,6 +91,13 @@
   opacity: 0.7;
 }
 
+.text-destaques {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 #destaque-pizza {
   background: url(../_imagens/back-pizza.jpg) center center no-repeat;
   -webkit-background-size: cover;

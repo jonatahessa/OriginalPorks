@@ -94,28 +94,37 @@
                     <div class="row">
                         <div id="destaque-pizza" class="col-xs-6 col-sm-6 col-md-3 col-lg-3 destaques">
                             <div class="col-12 black-transparency">
+                              <div class="text-destaques">
                                 <h4 class="text-center text-light">Pizza</h4>
                                 <h3 class="text-center text-warning">R$ 43</h3>
+                              </div>
                             </div>
                         </div>
 
                         <div id="destaque-burguer" class="col-xs-6 col-sm-6 col-md-3 col-lg-3 destaques">
                             <div class="col-12 black-transparency">
+                              <div class="text-destaques">
                                 <h4 class="text-center text-light">Hamburguer</h4>
                                 <h3 class="text-center text-warning">R$ 22</h3>
+                              </div>
                             </div>
                         </div>
 
                         <div id="destaque-baked" class="col-xs-6 col-sm-6 col-md-3 col-lg-3 destaques">
                             <div class="col-12 black-transparency">
+                              <div class="text-destaques">
                                 <h4 class="text-center text-light">Baked Burguer</h4>
                                 <h3 class="text-center text-warning">R$ 25</h3>
+                              </div>
                             </div>
                         </div>
+
                         <div id="destaque-calzone" class="col-xs-6 col-sm-6 col-md-3 col-lg-3 destaques">
                             <div class="col-12 black-transparency">
+                              <div class="text-destaques">
                                 <h4 class="text-center text-light">Calzone</h4>
                                 <h3 class="text-center text-warning">R$ 35</h3>
+                              </div>
                             </div>
                         </div>
                     </div>
@@ -123,29 +132,37 @@
                     <div class="row">
                       <div id="destaque-calzone2" class="col-xs-6 col-sm-6 col-md-3 col-lg-3 destaques">
                           <div class="col-12 black-transparency">
+                            <div class="text-destaques">
                               <h4 class="text-center text-light">Calzone</h4>
                               <h3 class="text-center text-warning">R$ 35</h3>
+                            </div>
                           </div>
                       </div>
 
                       <div id="destaque-baked2" class="col-xs-6 col-sm-6 col-md-3 col-lg-3 destaques">
                           <div class="col-12 black-transparency">
+                            <div class="text-destaques">
                               <h4 class="text-center text-light">Baked Burguer</h4>
                               <h3 class="text-center text-warning">R$ 25</h3>
+                            </div>
                           </div>
                       </div>
 
                       <div id="destaque-burguer2" class="col-xs-6 col-sm-6 col-md-3 col-lg-3 destaques">
                           <div class="col-12 black-transparency">
+                            <div class="text-destaques">
                               <h4 class="text-center text-light">Hamburguer</h4>
                               <h3 class="text-center text-warning">R$ 22</h3>
+                            </div>
                           </div>
                       </div>
 
                         <div id="destaque-pizza2" class="col-xs-6 col-sm-6 col-md-3 col-lg-3 destaques">
                             <div class="col-12 black-transparency">
+                              <div class="text-destaques">
                                 <h4 class="text-center text-light">Pizza</h4>
                                 <h3 class="text-center text-warning">R$ 43</h3>
+                              </div>
                             </div>
                         </div>
                     </div>
