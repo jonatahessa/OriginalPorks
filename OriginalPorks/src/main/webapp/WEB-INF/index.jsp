@@ -19,7 +19,7 @@
         <section class="container-fluid">
             <div id="menu-desk" class="row style-menu">
                 <div class="col-xs-9 col-sm-9 col-md-2 col-lg-2">
-                    <img class="img-fluid" src="./_imagens/original-logo.png" alt="Logo do Original Porks"/>
+                    <img class="img-fluid" src="./_imagens/original-logo-branco.png" alt="Logo do Original Porks"/>
                 </div>
                 <div class="col-10">
                     <ul class="nav h-100 justify-content-center align-items-center">
@@ -35,7 +35,7 @@
 
             <div id="menu-mobile" class="row style-menu">
                 <div class="col-8">
-                    <img class="img-fluid" src="./_imagens/original-logo.png" alt="Logo do Original Porks"/>
+                    <img class="img-fluid" src="./_imagens/original-logo-branco.png" alt="Logo do Original Porks"/>
                 </div>
                 <div class="col-4 align-self-center">
                     <div class="dropleft col-10">
