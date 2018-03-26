@@ -1,3 +1,11 @@
+body {
+  background: url(../_imagens/background-papper.jpg) center center no-repeat fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 @media (max-width: 769px) {
   #menu-desk {
     display: none;
@@ -46,16 +54,12 @@
   z-index: 149;
 }
 
-.yellow-text {
-  color: #ffcc00;
+.font-oleo {
+  font-family: 'Oleo Script Swash Caps', cursive;
 }
 
-.papper {
-  background: url(../_imagens/background-papper.jpg) center center no-repeat;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+.yellow-text {
+  color: #ffcc00;
 }
 
 .sessoes {

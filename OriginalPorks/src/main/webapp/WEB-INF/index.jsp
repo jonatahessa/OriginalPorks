@@ -10,6 +10,7 @@
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <link href="https://fonts.googleapis.com/css?family=Oleo+Script+Swash+Caps" rel="stylesheet">
         <link rel="shortcut icon" href="./_imagens/favicon1.ico" />
         <script type="text/javascript" src="./_resources/domPaginaInicial.js"></script>
         <title>Original Porks</title>
@@ -53,11 +54,11 @@
 
             <div id="imagem-cabecalho" class="row">
                 <div class="col-12">
-                    <h1 id="original" class="text-center align-self-center text-light">Original Porks</h1>
+                    <h1 id="original" class="text-center align-self-center text-light font-oleo display-1"><strong>Original Porks</strong></h1>
                 </div>
             </div>
 
-            <div class="row justify-content-center papper">
+            <div class="row justify-content-center">
                 <div class="col-xs-12 col-sm-12 col-md-10 col-lg-10 sessoes">
                     <div class="row justify-content-center">
                         <div class="col-xs-12 col-sm-12 col-lg-5 mobile-items-space d-xs-none d-sm-none d-md-block d-lg-block">
@@ -86,87 +87,94 @@
                 </div>
             </div>
 
-            <div class="row justify-content-center papper">
+            <div class="row justify-content-center">
                 <div class="col-xs-12 col-sm-12 col-md-10 col-lg-10 sessoes">
                     <h2 class="text-center">Delightful</h2>
                     <h1 class="text-center">EXPERIENCE</h1>
 
                     <div class="row">
-                        <div id="destaque-pizza" class="col-xs-6 col-sm-6 col-md-3 col-lg-3 destaques">
+                        <div id="destaque-pizza" class="col-xs-6 col-sm-6 col-md-3 col-lg-3 destaques font-oleo">
                             <div class="col-12 black-transparency">
                               <div class="text-destaques">
-                                <h4 class="text-center text-light">Pizza</h4>
-                                <h3 class="text-center text-warning">R$ 43</h3>
+                                <h2 class="text-center text-light">Pizza</h2>
+                                <h1 class="text-center text-warning">R$ 43</h1>
                               </div>
                             </div>
                         </div>
 
-                        <div id="destaque-burguer" class="col-xs-6 col-sm-6 col-md-3 col-lg-3 destaques">
+                        <div id="destaque-burguer" class="col-xs-6 col-sm-6 col-md-3 col-lg-3 destaques font-oleo">
                             <div class="col-12 black-transparency">
                               <div class="text-destaques">
-                                <h4 class="text-center text-light">Hamburguer</h4>
-                                <h3 class="text-center text-warning">R$ 22</h3>
+                                <h2 class="text-center text-light">Hamburguer</h2>
+                                <h1 class="text-center text-warning">R$ 22</h1>
                               </div>
                             </div>
                         </div>
 
-                        <div id="destaque-baked" class="col-xs-6 col-sm-6 col-md-3 col-lg-3 destaques">
+                        <div id="destaque-baked" class="col-xs-6 col-sm-6 col-md-3 col-lg-3 destaques font-oleo">
                             <div class="col-12 black-transparency">
                               <div class="text-destaques">
-                                <h4 class="text-center text-light">Baked Burguer</h4>
-                                <h3 class="text-center text-warning">R$ 25</h3>
+                                <h2 class="text-center text-light">Baked Burguer</h2>
+                                <h1 class="text-center text-warning">R$ 25</h1>
                               </div>
                             </div>
                         </div>
 
-                        <div id="destaque-calzone" class="col-xs-6 col-sm-6 col-md-3 col-lg-3 destaques">
+                        <div id="destaque-calzone" class="col-xs-6 col-sm-6 col-md-3 col-lg-3 destaques font-oleo">
                             <div class="col-12 black-transparency">
                               <div class="text-destaques">
-                                <h4 class="text-center text-light">Calzone</h4>
-                                <h3 class="text-center text-warning">R$ 35</h3>
+                                <h2 class="text-center text-light">Calzone</h2>
+                                <h1 class="text-center text-warning">R$ 35</h1>
                               </div>
                             </div>
                         </div>
                     </div>
 
                     <div class="row">
-                      <div id="destaque-calzone2" class="col-xs-6 col-sm-6 col-md-3 col-lg-3 destaques">
+                      <div id="destaque-calzone2" class="col-xs-6 col-sm-6 col-md-3 col-lg-3 destaques font-oleo">
                           <div class="col-12 black-transparency">
                             <div class="text-destaques">
-                              <h4 class="text-center text-light">Calzone</h4>
-                              <h3 class="text-center text-warning">R$ 35</h3>
+                              <h2 class="text-center text-light">Calzone</h2>
+                              <h1 class="text-center text-warning">R$ 35</h1>
                             </div>
                           </div>
                       </div>
 
-                      <div id="destaque-baked2" class="col-xs-6 col-sm-6 col-md-3 col-lg-3 destaques">
+                      <div id="destaque-baked2" class="col-xs-6 col-sm-6 col-md-3 col-lg-3 destaques font-oleo">
                           <div class="col-12 black-transparency">
                             <div class="text-destaques">
-                              <h4 class="text-center text-light">Baked Burguer</h4>
-                              <h3 class="text-center text-warning">R$ 25</h3>
+                              <h2 class="text-center text-light">Baked Burguer</h2>
+                              <h1 class="text-center text-warning">R$ 25</h1>
                             </div>
                           </div>
                       </div>
 
-                      <div id="destaque-burguer2" class="col-xs-6 col-sm-6 col-md-3 col-lg-3 destaques">
+                      <div id="destaque-burguer2" class="col-xs-6 col-sm-6 col-md-3 col-lg-3 destaques font-oleo">
                           <div class="col-12 black-transparency">
                             <div class="text-destaques">
-                              <h4 class="text-center text-light">Hamburguer</h4>
-                              <h3 class="text-center text-warning">R$ 22</h3>
+                              <h2 class="text-center text-light">Hamburguer</h2>
+                              <h1 class="text-center text-warning">R$ 22</h1>
                             </div>
                           </div>
                       </div>
 
-                        <div id="destaque-pizza2" class="col-xs-6 col-sm-6 col-md-3 col-lg-3 destaques">
+                        <div id="destaque-pizza2" class="col-xs-6 col-sm-6 col-md-3 col-lg-3 destaques font-oleo">
                             <div class="col-12 black-transparency">
                               <div class="text-destaques">
-                                <h4 class="text-center text-light">Pizza</h4>
-                                <h3 class="text-center text-warning">R$ 43</h3>
+                                <h2 class="text-center text-light">Pizza</h2>
+                                <h1 class="text-center text-warning">R$ 43</h1>
                               </div>
                             </div>
                         </div>
                     </div>
                 </div>
+            </div>
+
+            <div class="row justify-content-center">
+              <div class="col-xs-12 col-sm-12 col-md-10 col-lg-10 sessoes">
+                <h2 class="text-center">Av. Nossa Sra. de Sabará, 409 - Vila Campo Grande, São Paulo</h2>
+                <iframe class="col-12" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14618.150957205344!2d-46.688547210681136!3d-23.656720282734696!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x4bd0767fd1f3d906!2sOriginal+Porks!5e0!3m2!1spt-BR!2sbr!4v1522069139860" height="450" allowfullscreen></iframe>
+              </div>
             </div>
         </section>
     </body>
