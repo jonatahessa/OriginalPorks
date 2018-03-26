@@ -7,7 +7,7 @@
         <link rel="stylesheet" href="./_resources/estiloPaginaInicial.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
         <link href="https://fonts.googleapis.com/css?family=Oleo+Script+Swash+Caps" rel="stylesheet">
@@ -23,12 +23,12 @@
                 </div>
                 <div class="col-10">
                     <ul class="nav h-100 justify-content-center align-items-center">
-                        <li class="nav-item"><a class="nav-link hovered yellow-text" href="#"><h3>Home</h3></a></li>
-                        <li class="nav-item"><a class="nav-link hovered yellow-text" href="#"><h3>Promoções</h3></a></li>
-                        <li class="nav-item"><a class="nav-link hovered yellow-text" href="#"><h3>Cardápio</h3></a></li>
-                        <li class="nav-item"><a class="nav-link hovered yellow-text" href="#"><h3>Eventos</h3></a></li>
-                        <li class="nav-item"><a class="nav-link hovered yellow-text" href="#"><h3>Localização</h3></a></li>
-                        <li class="nav-item"><a class="nav-link hovered yellow-text" href="#"><h3>Contato</h3></a></li>
+                        <li class="nav-item"><a class="nav-link hovered yellow-text" href="#section1"><h3>Home</h3></a></li>
+                        <li class="nav-item"><a class="nav-link hovered yellow-text" href="#section2"><h3>Promoções</h3></a></li>
+                        <li class="nav-item"><a class="nav-link hovered yellow-text" href="#section3"><h3>Cardápio</h3></a></li>
+                        <li class="nav-item"><a class="nav-link hovered yellow-text" href="#section4"><h3>Eventos</h3></a></li>
+                        <li class="nav-item"><a class="nav-link hovered yellow-text" href="#section5"><h3>Localização</h3></a></li>
+                        <li class="nav-item"><a class="nav-link hovered yellow-text" href="#section6"><h3>Contato</h3></a></li>
                     </ul>
                 </div>
             </div>
@@ -41,12 +41,12 @@
                     <div class="dropleft col-10">
                         <button class="btn btn-light btn-sm dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span><img class="img-fluid" src="./_imagens/menu-mobile.png" alt=""></span></button>
                         <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                            <a class="dropdown-item" href="#">Home</a>
-                            <a class="dropdown-item" href="#">Promoções</a>
-                            <a class="dropdown-item" href="#">Cardápio</a>
-                            <a class="dropdown-item" href="#">Eventos</a>
-                            <a class="dropdown-item" href="#">Localização</a>
-                            <a class="dropdown-item" href="#">Contato</a>
+                            <a class="dropdown-item" href="#section1">Home</a>
+                            <a class="dropdown-item" href="#section2">Promoções</a>
+                            <a class="dropdown-item" href="#section3">Cardápio</a>
+                            <a class="dropdown-item" href="#section4">Eventos</a>
+                            <a class="dropdown-item" href="#section5">Localização</a>
+                            <a class="dropdown-item" href="#section6">Contato</a>
                         </div>
                     </div>
                 </div>
@@ -59,7 +59,7 @@
             </div>
 
             <div class="row justify-content-center">
-                <div class="col-xs-12 col-sm-12 col-md-10 col-lg-10 sessoes">
+                <div id="section1" class="col-xs-12 col-sm-12 col-md-10 col-lg-10 sessoes">
                     <div class="row justify-content-center">
                         <div class="col-xs-12 col-sm-12 col-lg-5 mobile-items-space d-xs-none d-sm-none d-md-block d-lg-block">
                             <img id="imagem-salao" class="img-fluid" src="./_imagens/nossa-casa.jpg" alt="Imagem do salão">
@@ -88,7 +88,7 @@
             </div>
 
             <div class="row justify-content-center">
-                <div class="col-xs-12 col-sm-12 col-md-10 col-lg-10 sessoes">
+                <div id="section2" class="col-xs-12 col-sm-12 col-md-10 col-lg-10 sessoes">
                     <h2 class="text-center">Delightful</h2>
                     <h1 class="text-center">EXPERIENCE</h1>
 
@@ -171,7 +171,7 @@
             </div>
 
             <div class="row justify-content-center">
-              <div class="col-xs-12 col-sm-12 col-md-10 col-lg-10 sessoes">
+              <div id="section5" class="col-xs-12 col-sm-12 col-md-10 col-lg-10 sessoes">
                 <h2 class="text-center">Av. Nossa Sra. de Sabará, 409 - Vila Campo Grande, São Paulo</h2>
                 <iframe class="col-12" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14618.150957205344!2d-46.688547210681136!3d-23.656720282734696!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x4bd0767fd1f3d906!2sOriginal+Porks!5e0!3m2!1spt-BR!2sbr!4v1522069139860" height="450" allowfullscreen></iframe>
               </div>
