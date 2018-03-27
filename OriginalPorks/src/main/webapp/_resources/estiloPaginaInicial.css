@@ -165,3 +165,16 @@ body {
   -o-background-size: cover;
   background-size: cover;
 }
+
+.backwood {
+  background: url(../_imagens/backwood.jpg) center center no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.no-border {
+  border: none;
+  background-color: transparent;
+}

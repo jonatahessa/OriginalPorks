@@ -170,6 +170,23 @@
                 </div>
             </div>
 
+            <div class="row justify-content-center backwood">
+              <div class="col-xs-12 col-sm-12 col-md-10 col-lg-10">
+                <h2 class="text-center">Nosso</h2>
+                <h1 class="text-center">Cardápio</h1>
+
+                <div class="row">
+                  <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5">
+                    <button class="no-border" type="button" name="button"><img class="img-fluid" src="./_imagens/pizza-cardapio.png" alt="pizza mussarela de búfala."></button>
+                  </div>
+
+                  <div class="col-xs-12 col-sm-12 col-md-7 col-lg-7">
+                    <h1 class="display-1 text-light font-oleo">Pizzas</h1>
+                  </div>
+                </div>
+              </div>
+            </div>
+
             <div class="row justify-content-center">
               <div id="section5" class="col-xs-12 col-sm-12 col-md-10 col-lg-10 sessoes">
                 <h2 class="text-center">Av. Nossa Sra. de Sabará, 409 - Vila Campo Grande, São Paulo</h2>
