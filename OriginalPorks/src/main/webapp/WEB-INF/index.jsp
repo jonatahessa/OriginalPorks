@@ -38,8 +38,8 @@
                     <img class="img-fluid" src="./_imagens/original-logo-branco.png" alt="Logo do Original Porks"/>
                 </div>
                 <div class="col-4 align-self-center">
-                    <div class="dropleft col-10">
-                        <button class="btn btn-light btn-sm dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span><img class="img-fluid" src="./_imagens/menu-mobile.png" alt=""></span></button>
+                    <div class="dropleft col-12">
+                        <button class="btn menu-drop" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img class="img-fluid" src="./_imagens/menu-mobile.png" alt=""></button>
                         <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                             <a class="dropdown-item" href="#section1">Home</a>
                             <a class="dropdown-item" href="#section2">Promoções</a>

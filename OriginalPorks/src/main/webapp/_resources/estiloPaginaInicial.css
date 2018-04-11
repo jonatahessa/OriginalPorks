@@ -19,6 +19,11 @@ body {
   .mobile-items-space {
     margin: 50px auto;
   }
+
+  .menu-drop {
+    background-color: transparent;
+    border: none;
+  }
 }
 
 @media (min-width: 770px) {
