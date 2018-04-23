@@ -23,11 +23,12 @@
                 </div>
                 <div class="col-10">
                     <ul class="nav h-100 justify-content-center align-items-center">
-                        <li class="nav-item"><a class="nav-link hovered yellow-text" href="#section1"><h4>Home</h4></a></li>
-                        <li class="nav-item"><a class="nav-link hovered yellow-text" href="#section2"><h4>Cardápio</h4></a></li>
-                        <li class="nav-item"><a class="nav-link hovered yellow-text" href="#section3"><h4>Eventos</h4></a></li>
-                        <li class="nav-item"><a class="nav-link hovered yellow-text" href="#section4"><h4>Localização</h4></a></li>
-                        <li class="nav-item"><a class="nav-link hovered yellow-text" href="#section5"><h4>Contato</h4></a></li>
+                        <li class="nav-item"><a class="nav-link hovered yellow-text" href="#section1"><h5>Home</h5></a></li>
+                        <li class="nav-item"><a class="nav-link hovered yellow-text" href="#section2"><h5>Cardápio</h5></a></li>
+                        <li class="nav-item"><a class="nav-link hovered yellow-text" href="#section3"><h5>Eventos</h5></a></li>
+                        <li class="nav-item"><a class="nav-link hovered yellow-text" href="#section4"><h5>Shows</h5></a></li>
+                        <li class="nav-item"><a class="nav-link hovered yellow-text" href="#section5"><h5>Localização</h5></a></li>
+                        <li class="nav-item"><a class="nav-link hovered yellow-text" href="#section6"><h5>Contato</h5></a></li>
                     </ul>
                 </div>
             </div>
@@ -43,21 +44,16 @@
                             <a class="dropdown-item" href="#section1">Home</a>
                             <a class="dropdown-item" href="#section2">Cardápio</a>
                             <a class="dropdown-item" href="#section3">Eventos</a>
-                            <a class="dropdown-item" href="#section4">Localização</a>
-                            <a class="dropdown-item" href="#section5">Contato</a>
+                            <a class="dropdown-item" href="#section4">Shows</a>
+                            <a class="dropdown-item" href="#section5">Localização</a>
+                            <a class="dropdown-item" href="#section6">Contato</a>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div id="imagem-cabecalho" class="row">
-                <div class="col-12">
-                    <h1 id="original" class="text-center align-self-center text-light font-oleo display-3 contorno"><strong>Original Porks</strong></h1>
-                </div>
-            </div>
-
             <div class="row justify-content-center">
-                <div id="section1" class="col-xs-12 col-sm-12 col-md-10 col-lg-10 sessoes">
+                <div id="section1" class="col-xs-12 col-sm-12 col-md-10 col-lg-10 sec-pad">
                     <h1>Home</h1>
                     <hr class="black-line"/>
                     <div class="row justify-content-center">
@@ -67,7 +63,8 @@
 
                         <div class="col-xs-12 col-sm-12 col-lg-5 align-self-center mobile-items-space background-white">
                             <h2>Nossa Casa</h2>
-                            <p class="">Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. Se popularizou na década de 60, quando a Letraset lançou decalques contendo passagens de Lorem Ipsum, e mais recentemente quando passou a ser integrado a softwares de editoração eletrônica como Aldus PageMaker.</p>
+                            <p class="">A <strong>Original Porks</strong> surgiu criando um novo conceito em restaurante mas sem perder elementos tradicionais, manter sabores clássicos de pizza como Marguerita, Mussarela, Calabresa, entre outras é um exemplo disso. Mas também fazemos maravilhosos Burguers, todos feitos com nosso próprio pão que dá um sabor só nosso nas incríveis receitas que preparamos.<br/>
+                                        Nossos Baked Burgues são um espetáculo a parte, são receitas surpreendentes misturando deliciosos Burguers, queijos e molhos dentro de uma massa de pizza, assados lentamente no forno a lenha.</p>
                         </div>
                     </div>
                 </div>
@@ -78,7 +75,8 @@
                     <div class="row justify-content-center">
                         <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5 align-self-center background-white mobile-items-space">
                             <h3>Cervejas Especiais</h3>
-                            <p class="">Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. Se popularizou na década de 60, quando a Letraset lançou decalques contendo passagens de Lorem Ipsum, e mais recentemente quando passou a ser integrado a softwares de editoração eletrônica como Aldus PageMaker.</p>
+                            <p class="">Com mais de 400 rótulos nacionais e importados pra você experimentar e degustar, com opções das mais variadas: Lager, Pilsen, Bock, Ipa, Weiss e muito mais...<br/>
+                                        Contamos também com o nossos irresistíveis Chopps que saem direto do barril para a sua mesa!</p>
                         </div>
 
                         <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5 mobile-items-space d-xs-none d-sm-none d-md-block d-lg-block">
@@ -89,7 +87,7 @@
             </div>
 
             <div class="row justify-content-center back-black section-cardapio">
-                <div id="section2" class="col-xs-12 col-sm-12 col-md-10 col-lg-10">
+                <div id="section2" class="col-xs-12 col-sm-12 col-md-10 col-lg-10 sec-pad">
                     <h1 class="text-light">Cardápio</h1>
                     <hr class="white-line"/>
                     <div class="row justify-content-center">
@@ -99,6 +97,18 @@
                                     <h1 class="text-light display-4">Pizzas</h1>
                                     <h4 class="text-center text-light">Deliciosas pizzas com sabores clássicos e também sabores novos preparados com carinho.</h4>
                                     <button class="btn btn-warning btn-lg col-lg-4" type="button" data-toggle="modal" data-target="#modal-pizzas">Abrir</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row justify-content-center">
+                        <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 back-doce text-center padded font-signika sessoes">
+                            <div class="row justify-content-center">
+                                <div class="col-11 black-menu">
+                                    <h1 class="text-light display-4">Pizzas Doces</h1>
+                                    <h4 class="text-center text-light">Pizzas doces com sabores de dar água na boca.</h4>
+                                    <button class="btn btn-warning btn-lg col-lg-4" type="button" data-toggle="modal" data-target="#modal-doces">Abrir</button>
                                 </div>
                             </div>
                         </div>
@@ -131,7 +141,7 @@
             </div>
 
             <div class="row justify-content-center">
-                <div id="section3" class="col-xs-12 col-sm-12 col-md-10 col-lg-10 sessoes">
+                <div id="section3" class="col-xs-12 col-sm-12 col-md-10 col-lg-10 sec-pad">
                     <h1>Eventos</h1>
                     <hr class="black-line"/>
                     <div class="row justify-content-center">
@@ -141,23 +151,49 @@
 
                         <div class="col-xs-12 col-sm-12 col-lg-5 align-self-center mobile-items-space background-white">
                             <h2>Seus eventos com a gente!</h2>
-                            <p class="">Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. Se popularizou na década de 60, quando a Letraset lançou decalques contendo passagens de Lorem Ipsum, e mais recentemente quando passou a ser integrado a softwares de editoração eletrônica como Aldus PageMaker.</p>
+                            <p class="">Faça o seu evento aqui, seja ele corporativo ou social. Aniversários, confraternizações, entre outros.<br/>
+                                        Temos tudo para fazer o seu evento ser inesquecível!</p>
                         </div>
                     </div>
                 </div>
             </div>
 
             <div class="row justify-content-center">
-                <div id="section4" class="col-xs-12 col-sm-12 col-md-8 col-lg-8 sessoes">
+                <div id="section4" class="col-xs-12 col-sm-12 col-md-10 col-lg-10 sec-pad">
+                    <h1>Shows</h1>
+                    <hr class="black-line"/>
+                    <div class="row justify-content-center">
+                        <div class="col-xs-12 col-sm-12 col-lg-6 align-self-center mobile-items-space background-white">
+                            <h2>Também temos shows!</h2>
+                            <p>A <strong>Original Porks</strong> se preocupa em trazer os melhores e mais divertidos espetáculos pra você.<br/>
+                              Fique ligado aqui no site e no nosso Facebook para não perder nenhum!
+                            </p>
+
+                            <div class="row justify-content-center">
+                              <div class="col-3 pad-bottom">
+                                <a href="https://www.facebook.com/originalporks1/" target="_blank"><img class="img-fluid" src="./_imagens/facebook.png" alt=""><h4 class="text-center">Clique!</h4></a>
+                              </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xs-12 col-sm-12 col-lg-6 mobile-items-space d-xs-none d-sm-none d-md-block d-lg-block">
+                            <img id="imagem-salao" class="img-fluid" src="./_imagens/show-comedy.jpg" alt="Imagem do salão">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row justify-content-center">
+                <div id="section5" class="col-xs-12 col-sm-12 col-md-8 col-lg-8 sessoes sec-pad">
                     <h1>Localização</h1>
                     <hr class="black-line"/>
-                    <h3 class="text-center">Av. Nossa Sra. de Sabará, 409 - Vila Campo Grande, São Paulo</h3>
+                    <h4 class="text-center">Av. Nossa Sra. de Sabará, 409 - Vila Campo Grande, São Paulo</h4>
                     <iframe class="col-12" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14618.150957205344!2d-46.688547210681136!3d-23.656720282734696!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x4bd0767fd1f3d906!2sOriginal+Porks!5e0!3m2!1spt-BR!2sbr!4v1522069139860" height="450" allowfullscreen></iframe>
                 </div>
             </div>
 
             <div class="row justify-content-center back-black">
-                <div id="section5" class="col-xs-12 col-sm-12 col-md-8 col-lg-8 sessoes">
+                <div id="section6" class="col-xs-12 col-sm-12 col-md-8 col-lg-8 sec-pad-min">
                     <h1 class="text-light">Contato</h1>
                     <hr class="white-line"/>
                     <div class="row justify-content-center">
@@ -188,6 +224,35 @@
                                         <h5 class="titulo">${pizza.nome}</h5>
                                         <h5 class="preco">${pizza.preco}</h5>
                                         <p class="descricao">${pizza.descricao}</p>
+                                    </div>
+                                </li>
+                            </c:forEach>
+                        </ul>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="modal-doces" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLongTitle">Pizzas Doces</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <ul class="col-12 cardapios">
+                            <c:forEach var="doce" items="${doces}">
+                                <li class="menu-category titulopreco">
+                                    <div class="">
+                                        <h5 class="titulo">${doce.nome}</h5>
+                                        <h5 class="preco">${doce.preco}</h5>
+                                        <p class="descricao">${doce.descricao}</p>
                                     </div>
                                 </li>
                             </c:forEach>

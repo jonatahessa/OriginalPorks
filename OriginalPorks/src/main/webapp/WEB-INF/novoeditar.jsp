@@ -29,7 +29,8 @@
                       <select class="form-control" name="tipo">
                           <option value="PIZZA" ${produto.tipo == 'PIZZA' ? 'selected' : ''}>Pizza</option>
                           <option value="DOCE" ${produto.tipo == 'DOCE' ? 'selected' : ''}>Pizza Doce</option>
-                          <option value="PROMOCAO" ${produto.tipo == 'PROMOCAO' ? 'selected' : ''}>Promoção</option>
+                          <option value="BAKED" ${produto.tipo == 'BAKED' ? 'selected' : ''}>Baked Burguer</option>
+                          <option value="BURGUER" ${produto.tipo == 'BURGUER' ? 'selected' : ''}>Burguer</option>
                       </select>
                   </div>
 

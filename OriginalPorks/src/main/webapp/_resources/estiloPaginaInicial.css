@@ -70,9 +70,17 @@ body {
   color: #ffcc00;
 }
 
+.pad-bottom {
+  padding-bottom: 50px;
+}
+
 .sessoes {
   margin-top: 50px;
   margin-bottom: 50px;
+}
+
+.sec-pad {
+  padding-top: 170px;
 }
 
 .background-white {
@@ -102,14 +110,6 @@ body {
   transform: translate(-50%, -50%);
 }
 
-.back-pizza {
-  background: url(../_imagens/back-pizza.jpg) center center no-repeat;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-
 .black-menu {
   background-color: rgba(0, 0, 0, 0.7);
   padding: 30px;
@@ -135,6 +135,22 @@ body {
    border-top: 1px solid #555;
    margin: 1em 0;
    padding: 0;
+}
+
+.back-pizza {
+  background: url(../_imagens/back-pizza.jpg) center center no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.back-doce {
+  background: url(../_imagens/pizza-banana.jpg) center center no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .back-baked {
@@ -201,4 +217,8 @@ body {
 
 .cardapios {
   list-style: none;
+}
+
+.sec-pad-min {
+  padding-top: 50px;
 }
