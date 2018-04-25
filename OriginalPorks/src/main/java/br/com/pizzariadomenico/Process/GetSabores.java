@@ -28,12 +28,18 @@ public class GetSabores extends HttpServlet {
             throws ServletException, IOException, Exception {
         request.setCharacterEncoding("UTF-8");
         response.setCharacterEncoding("UTF-8");
-        List<Produto> pizzas = Utils.ListarPizzasPaginaInicialPizzas();
+        List<Produto> classicas = Utils.ListarPizzasPaginaInicialClassicas();
+        List<Produto> originais = Utils.ListarPizzasPaginaInicialOriginais();
+        List<Produto> lights = Utils.ListarPizzasPaginaInicialLights();
+        List<Produto> especiais = Utils.ListarPizzasPaginaInicialEspeciais();
         List<Produto> doces = Utils.ListarPizzasPaginaInicialDoces();
         List<Produto> bakeds = Utils.ListarPizzasPaginaInicialBakeds();
         List<Produto> burguers = Utils.ListarPizzasPaginaInicialBurguers();
         
-        request.setAttribute("pizzas", pizzas);
+        request.setAttribute("classicas", classicas);
+        request.setAttribute("originais", originais);
+        request.setAttribute("lights", lights);
+        request.setAttribute("especiais", especiais);
         request.setAttribute("doces", doces);
         request.setAttribute("bakeds", bakeds);
         request.setAttribute("burguers", burguers);

@@ -42,6 +42,10 @@ body {
   .hovered:hover {
     color: white;
   }
+
+  .padded {
+    margin: 10px;
+  }
 }
 
 #imagem-cabecalho {

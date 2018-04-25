@@ -24,9 +24,30 @@ public class Utils {
         return pizzas;
     }
 
-    public static List<Produto> ListarPizzasPaginaInicialPizzas() throws Exception {
+    public static List<Produto> ListarPizzasPaginaInicialClassicas() throws Exception {
         List<Produto> pizzas = new ArrayList<>();
-        pizzas = br.com.pizzariadomenico.Daos.DaoProduto.listarPaginaInicialPizza();
+        pizzas = br.com.pizzariadomenico.Daos.DaoProduto.listarPaginaInicialClassica();
+
+        return pizzas;
+    }
+    
+    public static List<Produto> ListarPizzasPaginaInicialOriginais() throws Exception {
+        List<Produto> pizzas = new ArrayList<>();
+        pizzas = br.com.pizzariadomenico.Daos.DaoProduto.listarPaginaInicialOriginal();
+
+        return pizzas;
+    }
+    
+    public static List<Produto> ListarPizzasPaginaInicialLights() throws Exception {
+        List<Produto> pizzas = new ArrayList<>();
+        pizzas = br.com.pizzariadomenico.Daos.DaoProduto.listarPaginaInicialLight();
+
+        return pizzas;
+    }
+    
+    public static List<Produto> ListarPizzasPaginaInicialEspeciais() throws Exception {
+        List<Produto> pizzas = new ArrayList<>();
+        pizzas = br.com.pizzariadomenico.Daos.DaoProduto.listarPaginaInicialEspecial();
 
         return pizzas;
     }

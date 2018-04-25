@@ -63,8 +63,8 @@
 
                         <div class="col-xs-12 col-sm-12 col-lg-5 align-self-center mobile-items-space background-white">
                             <h2>Nossa Casa</h2>
-                            <p class="">A <strong>Original Porks</strong> surgiu criando um novo conceito em restaurante mas sem perder elementos tradicionais, manter sabores clássicos de pizza como Marguerita, Mussarela, Calabresa, entre outras é um exemplo disso. Mas também fazemos maravilhosos Burguers, todos feitos com nosso próprio pão que dá um sabor só nosso nas incríveis receitas que preparamos.<br/>
-                                        Nossos Baked Burgues são um espetáculo a parte, são receitas surpreendentes misturando deliciosos Burguers, queijos e molhos dentro de uma massa de pizza, assados lentamente no forno a lenha.</p>
+                            <p class="">Ideal para quem aprecia uma refeição saborosa e uma boa cerveja artesanal, nasce na zona sul de São Paulo o <strong>ORIGINAL PORKS</strong>.<br/>
+                                        Sabe aquele lugar gostoso para passar um tempo agradável com a família ou entre amigos e ainda ter uma experiência gastronômica e especial? Esse é o conceito do <strong>ORIGINAL PORKS</strong>, que resgata a velha forma de se cozinhar em fornos a lenha. Lá o tempo não passa, não dá vontade de ir embora... Além da gastronomia, ainda tem opções de entretenimento, com música, talk show, e o carisma do sócio Marcos Aurélio, conhecido por Filé, que além de ser um "chef" de mãos cheias, é um do melhores entendedores de cerveja do Brasil.</p>
                         </div>
                     </div>
                 </div>
@@ -74,13 +74,12 @@
                 <div class="col-xs-12 col-sm-12 col-md-10 col-lg-10">
                     <div class="row justify-content-center">
                         <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5 align-self-center background-white mobile-items-space">
-                            <h3>Cervejas Especiais</h3>
-                            <p class="">Com mais de 400 rótulos nacionais e importados pra você experimentar e degustar, com opções das mais variadas: Lager, Pilsen, Bock, Ipa, Weiss e muito mais...<br/>
-                                        Contamos também com o nossos irresistíveis Chopps que saem direto do barril para a sua mesa!</p>
+                            <h3>Burguers</h3>
+                            <p class="">São criações do Marcos, as opções de hambúrguer artesanal, feitas a partir de um "blend" exclusivo de carnes nobres, normalmente contando carne de porco. A carne de porco vem ganhando cada vez mais espaço nos cardápios por ser uma opção saudável e muito saborosa. Uma vez preparada a carne, o sanduiche e assado lentamente e vai sendo aos poucos defumado e caramelizado. E para fechar com chave de ouro, usam massa de pizza para montar o sanduiche. Assim nasceu o "baked burguer", um sanduiche irresistível que você não pode deixar de provar.</p>
                         </div>
 
                         <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5 mobile-items-space d-xs-none d-sm-none d-md-block d-lg-block">
-                            <img class="img-fluid" src="./_imagens/copo-cerveja.jpg" alt="Caneca com cerveja">
+                            <img class="img-fluid" src="./_imagens/burguer-cerveja.jpg" alt="Caneca com cerveja">
                         </div>
                     </div>
                 </div>
@@ -90,24 +89,59 @@
                 <div id="section2" class="col-xs-12 col-sm-12 col-md-10 col-lg-10 sec-pad">
                     <h1 class="text-light">Cardápio</h1>
                     <hr class="white-line"/>
+
                     <div class="row justify-content-center">
-                        <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 back-pizza text-center padded font-signika sessoes">
+                        <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 back-pizza text-center padded font-signika sessoes">
                             <div class="row justify-content-center">
                                 <div class="col-11 black-menu">
-                                    <h1 class="text-light display-4">Pizzas</h1>
-                                    <h4 class="text-center text-light">Deliciosas pizzas com sabores clássicos e também sabores novos preparados com carinho.</h4>
-                                    <button class="btn btn-warning btn-lg col-lg-4" type="button" data-toggle="modal" data-target="#modal-pizzas">Abrir</button>
+                                    <h1 class="text-light display-5">Pizzas Clássicas</h1>
+                                    <button class="btn btn-warning btn-lg col-lg-4" type="button" data-toggle="modal" data-target="#modal-classicas">Abrir</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 back-pizza text-center padded font-signika sessoes">
+                            <div class="row justify-content-center">
+                                <div class="col-11 black-menu">
+                                    <h1 class="text-light display-5">Pizzas Originais</h1>
+                                    <button class="btn btn-warning btn-lg col-lg-4" type="button" data-toggle="modal" data-target="#modal-originais">Abrir</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 back-pizza text-center padded font-signika sessoes">
+                            <div class="row justify-content-center">
+                                <div class="col-11 black-menu">
+                                    <h1 class="text-light display-5">Pizzas <br/>Lights</h1>
+                                    <button class="btn btn-warning btn-lg col-lg-4" type="button" data-toggle="modal" data-target="#modal-light">Abrir</button>
                                 </div>
                             </div>
                         </div>
                     </div>
 
                     <div class="row justify-content-center">
-                        <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 back-doce text-center padded font-signika sessoes">
+                        <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 back-pizza text-center padded font-signika sessoes">
                             <div class="row justify-content-center">
                                 <div class="col-11 black-menu">
-                                    <h1 class="text-light display-4">Pizzas Doces</h1>
-                                    <h4 class="text-center text-light">Pizzas doces com sabores de dar água na boca.</h4>
+                                    <h1 class="text-light display-5">Pizzas Especiais</h1>
+                                    <button class="btn btn-warning btn-lg col-lg-4" type="button" data-toggle="modal" data-target="#modal-especial">Abrir</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 back-burguer text-center padded font-signika sessoes">
+                            <div class="row justify-content-center">
+                                <div class="col-11 black-menu">
+                                    <h1 class="text-light display-5">Nossos Adicionais</h1>
+                                    <button class="btn btn-warning btn-lg col-lg-4" type="button" data-toggle="modal" data-target="#modal-adicionais">Abrir</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 back-doce text-center padded font-signika sessoes">
+                            <div class="row justify-content-center">
+                                <div class="col-11 black-menu">
+                                    <h1 class="text-light display-5">Pizzas <br/>Doces</h1>
                                     <button class="btn btn-warning btn-lg col-lg-4" type="button" data-toggle="modal" data-target="#modal-doces">Abrir</button>
                                 </div>
                             </div>
@@ -115,24 +149,29 @@
                     </div>
 
                     <div class="row justify-content-center">
-                        <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 back-baked text-center padded font-signika sessoes">
+                        <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 back-burguer text-center padded font-signika sessoes">
                             <div class="row justify-content-center">
                                 <div class="col-11 black-menu">
-                                    <h1 class="text-light display-4">Baked Burguers</h1>
-                                    <h4 class="text-center text-light">Burguer assado lentamente no forno a lenha, com massa de pizza no lugar do pão.</h4>
+                                    <h1 class="text-light display-5">Classic Burguers</h1>
+                                    <button class="btn btn-warning btn-lg col-lg-4" type="button" data-toggle="modal" data-target="#modal-burguers">Abrir</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 back-baked text-center padded font-signika sessoes">
+                            <div class="row justify-content-center">
+                                <div class="col-11 black-menu">
+                                    <h1 class="text-light display-5">Baked Burguers</h1>
                                     <button class="btn btn-warning btn-lg col-lg-4" type="button" data-toggle="modal" data-target="#modal-baked">Abrir</button>
                                 </div>
                             </div>
                         </div>
-                    </div>
 
-                    <div class="row justify-content-center">
-                        <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 back-burguer text-center padded font-signika sessoes">
+                        <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 back-burguer text-center padded font-signika sessoes">
                             <div class="row justify-content-center">
                                 <div class="col-11 black-menu">
-                                    <h1 class="text-light display-4">Classic Burguers</h1>
-                                    <h4 class="text-center text-light">Blend de carnes selecionadas, preparadas na chapa e com pão artesanal da casa.</h4>
-                                    <button class="btn btn-warning btn-lg col-lg-4" type="button" data-toggle="modal" data-target="#modal-burguers">Abrir</button>
+                                    <h1 class="text-light display-5">Nossas Porções</h1>
+                                    <button class="btn btn-warning btn-lg col-lg-4" type="button" data-toggle="modal" data-target="#modal-porcoes">Abrir</button>
                                 </div>
                             </div>
                         </div>
@@ -207,23 +246,114 @@
             </div>
         </section>
 
-        <div class="modal fade" id="modal-pizzas" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+        <div class="modal fade" id="modal-classicas" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
             <div class="modal-dialog" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLongTitle">Pizzas</h5>
+                        <h5 class="modal-title" id="exampleModalLongTitle">Pizzas Clássicas</h5>
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                             <span aria-hidden="true">&times;</span>
                         </button>
                     </div>
                     <div class="modal-body">
                         <ul class="col-12 cardapios">
-                            <c:forEach var="pizza" items="${pizzas}">
+                            <c:forEach var="classica" items="${classicas}">
                                 <li class="menu-category titulopreco">
                                     <div class="">
-                                        <h5 class="titulo">${pizza.nome}</h5>
-                                        <h5 class="preco">${pizza.preco}</h5>
-                                        <p class="descricao">${pizza.descricao}</p>
+                                        <h5 class="titulo">${classica.nome}</h5>
+                                        <h5 class="preco">${classica.preco}</h5>
+                                        <h5 class="preco">${classica.broto}</h5>
+                                        <p class="descricao">${classica.descricao}</p>
+                                    </div>
+                                </li>
+                            </c:forEach>
+                        </ul>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="modal-originais" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLongTitle">Pizzas Originais</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <ul class="col-12 cardapios">
+                            <c:forEach var="original" items="${originais}">
+                                <li class="menu-category titulopreco">
+                                    <div class="">
+                                        <h5 class="titulo">${original.nome}</h5>
+                                        <h5 class="preco">${original.preco}</h5>
+                                        <h5 class="preco">${original.broto}</h5>
+                                        <p class="descricao">${original.descricao}</p>
+                                    </div>
+                                </li>
+                            </c:forEach>
+                        </ul>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="modal-light" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLongTitle">Pizzas Light</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <ul class="col-12 cardapios">
+                            <c:forEach var="light" items="${lights}">
+                                <li class="menu-category titulopreco">
+                                    <div class="">
+                                        <h5 class="titulo">${light.nome}</h5>
+                                        <h5 class="preco">${light.preco}</h5>
+                                        <h5 class="preco">${light.broto}</h5>
+                                        <p class="descricao">${light.descricao}</p>
+                                    </div>
+                                </li>
+                            </c:forEach>
+                        </ul>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="modal-especial" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLongTitle">Pizzas Especiais</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <ul class="col-12 cardapios">
+                            <c:forEach var="especial" items="${especiais}">
+                                <li class="menu-category titulopreco">
+                                    <div class="">
+                                        <h5 class="titulo">${especial.nome}</h5>
+                                        <h5 class="preco">${especial.preco}</h5>
+                                        <h5 class="preco">${especial.broto}</h5>
+                                        <p class="descricao">${especial.descricao}</p>
                                     </div>
                                 </li>
                             </c:forEach>
@@ -252,6 +382,7 @@
                                     <div class="">
                                         <h5 class="titulo">${doce.nome}</h5>
                                         <h5 class="preco">${doce.preco}</h5>
+                                        <h5 class="preco">${doce.broto}</h5>
                                         <p class="descricao">${doce.descricao}</p>
                                     </div>
                                 </li>
