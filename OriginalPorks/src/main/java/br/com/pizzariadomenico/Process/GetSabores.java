@@ -35,6 +35,8 @@ public class GetSabores extends HttpServlet {
         List<Produto> doces = Utils.ListarPizzasPaginaInicialDoces();
         List<Produto> bakeds = Utils.ListarPizzasPaginaInicialBakeds();
         List<Produto> burguers = Utils.ListarPizzasPaginaInicialBurguers();
+        List<Produto> porcoes = Utils.ListarPizzasPaginaInicialPorcoes();
+        List<Produto> adicionais = Utils.ListarPizzasPaginaInicialAdicionais();
         
         request.setAttribute("classicas", classicas);
         request.setAttribute("originais", originais);
@@ -43,6 +45,8 @@ public class GetSabores extends HttpServlet {
         request.setAttribute("doces", doces);
         request.setAttribute("bakeds", bakeds);
         request.setAttribute("burguers", burguers);
+        request.setAttribute("adicionais", adicionais);
+        request.setAttribute("porcoes", porcoes);
         RequestDispatcher dispatcher = request.getRequestDispatcher("/WEB-INF/index.jsp");
         dispatcher.forward(request, response);
     }

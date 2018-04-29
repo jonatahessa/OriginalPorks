@@ -149,6 +149,30 @@ body {
   background-size: cover;
 }
 
+.back-pizza2 {
+  background: url(../_imagens/back-pizza2.jpg) center center no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.back-pizza3 {
+  background: url(../_imagens/back-pizza3.jpg) center center no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.back-pizza4 {
+  background: url(../_imagens/back-pizza3.jpg) center center no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 .back-doce {
   background: url(../_imagens/pizza-banana.jpg) center center no-repeat;
   -webkit-background-size: cover;
@@ -167,6 +191,14 @@ body {
 
 .back-burguer {
   background: url(../_imagens/back-burguer.jpg) center center no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.back-porcao {
+  background: url(../_imagens/back-porcao.jpg) center center no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -206,13 +238,20 @@ body {
 }
 
 .titulo {
-  color: red;
-  float: left;
+
 }
 
 .preco {
-  color: green;
-  float: right;
+
+}
+
+.line {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #777;
+  margin: 1em 0;
+  padding: 0;
 }
 
 .descricao {

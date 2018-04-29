@@ -100,7 +100,7 @@
                             </div>
                         </div>
 
-                        <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 back-pizza text-center padded font-signika sessoes">
+                        <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 back-pizza2 text-center padded font-signika sessoes">
                             <div class="row justify-content-center">
                                 <div class="col-11 black-menu">
                                     <h1 class="text-light display-5">Pizzas Originais</h1>
@@ -109,7 +109,7 @@
                             </div>
                         </div>
 
-                        <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 back-pizza text-center padded font-signika sessoes">
+                        <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 back-pizza3 text-center padded font-signika sessoes">
                             <div class="row justify-content-center">
                                 <div class="col-11 black-menu">
                                     <h1 class="text-light display-5">Pizzas <br/>Lights</h1>
@@ -120,7 +120,7 @@
                     </div>
 
                     <div class="row justify-content-center">
-                        <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 back-pizza text-center padded font-signika sessoes">
+                        <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 back-pizza4 text-center padded font-signika sessoes">
                             <div class="row justify-content-center">
                                 <div class="col-11 black-menu">
                                     <h1 class="text-light display-5">Pizzas Especiais</h1>
@@ -167,7 +167,7 @@
                             </div>
                         </div>
 
-                        <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 back-burguer text-center padded font-signika sessoes">
+                        <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 back-porcao text-center padded font-signika sessoes">
                             <div class="row justify-content-center">
                                 <div class="col-11 black-menu">
                                     <h1 class="text-light display-5">Nossas Porções</h1>
@@ -240,6 +240,8 @@
                             <a class="text-light" href="tel:01155224931"><h1 class="display-4">5522-4931</h1></a><br/>
                             <a class="text-light" href="tel:01155460088"><h1 class="display-4">5546-0088</h1></a>
                             <h4 class="text-warning">Delivery a partir das 18h</h4>
+                            <p class="text-light">Copyright (c) Original Porks Copyright Holder All Rights Reserved.</p>
+                            <p class="text-light">Developed by Jonata Hessa</p>
                         </div>
                     </div>
                 </div>
@@ -260,10 +262,11 @@
                             <c:forEach var="classica" items="${classicas}">
                                 <li class="menu-category titulopreco">
                                     <div class="">
-                                        <h5 class="titulo">${classica.nome}</h5>
-                                        <h5 class="preco">${classica.preco}</h5>
-                                        <h5 class="preco">${classica.broto}</h5>
+                                        <h5 class="titulo text-danger">${classica.nome}</h5>
+                                        <h5 class="preco text-success">Grande: R$ ${classica.preco}</h5>
+                                        <h5 class="preco text-success">Broto: R$ ${classica.broto}</h5>
                                         <p class="descricao">${classica.descricao}</p>
+                                        <hr class="line"/>
                                     </div>
                                 </li>
                             </c:forEach>
@@ -290,10 +293,11 @@
                             <c:forEach var="original" items="${originais}">
                                 <li class="menu-category titulopreco">
                                     <div class="">
-                                        <h5 class="titulo">${original.nome}</h5>
-                                        <h5 class="preco">${original.preco}</h5>
-                                        <h5 class="preco">${original.broto}</h5>
+                                        <h5 class="titulo text-danger">${original.nome}</h5>
+                                        <h5 class="preco text-success">Grande: R$ ${original.preco}</h5>
+                                        <h5 class="preco text-success">Broto: R$ ${original.broto}</h5>
                                         <p class="descricao">${original.descricao}</p>
+                                        <hr class="line"/>
                                     </div>
                                 </li>
                             </c:forEach>
@@ -320,10 +324,11 @@
                             <c:forEach var="light" items="${lights}">
                                 <li class="menu-category titulopreco">
                                     <div class="">
-                                        <h5 class="titulo">${light.nome}</h5>
-                                        <h5 class="preco">${light.preco}</h5>
-                                        <h5 class="preco">${light.broto}</h5>
+                                        <h5 class="titulo text-danger">${light.nome}</h5>
+                                        <h5 class="preco text-success">Grande: R$ ${light.preco}</h5>
+                                        <h5 class="preco text-success">Broto: R$ ${light.broto}</h5>
                                         <p class="descricao">${light.descricao}</p>
+                                        <hr class="line"/>
                                     </div>
                                 </li>
                             </c:forEach>
@@ -350,10 +355,11 @@
                             <c:forEach var="especial" items="${especiais}">
                                 <li class="menu-category titulopreco">
                                     <div class="">
-                                        <h5 class="titulo">${especial.nome}</h5>
-                                        <h5 class="preco">${especial.preco}</h5>
-                                        <h5 class="preco">${especial.broto}</h5>
+                                        <h5 class="titulo text-danger">${especial.nome}</h5>
+                                        <h5 class="preco text-success">Grande: R$ ${especial.preco}</h5>
+                                        <h5 class="preco text-success">Broto: R$ ${especial.broto}</h5>
                                         <p class="descricao">${especial.descricao}</p>
+                                        <hr class="line"/>
                                     </div>
                                 </li>
                             </c:forEach>
@@ -380,10 +386,11 @@
                             <c:forEach var="doce" items="${doces}">
                                 <li class="menu-category titulopreco">
                                     <div class="">
-                                        <h5 class="titulo">${doce.nome}</h5>
-                                        <h5 class="preco">${doce.preco}</h5>
-                                        <h5 class="preco">${doce.broto}</h5>
+                                        <h5 class="titulo text-danger">${doce.nome}</h5>
+                                        <h5 class="preco text-success">Grande: R$ ${doce.preco}</h5>
+                                        <h5 class="preco text-success">Broto: R$ ${doce.broto}</h5>
                                         <p class="descricao">${doce.descricao}</p>
+                                        <hr class="line"/>
                                     </div>
                                 </li>
                             </c:forEach>
@@ -410,9 +417,40 @@
                             <c:forEach var="baked" items="${bakeds}">
                                 <li class="menu-category titulopreco">
                                     <div class="">
-                                        <h5 class="titulo">${baked.nome}</h5>
-                                        <h5 class="preco">${baked.preco}</h5>
+                                        <h5 class="titulo text-danger">${baked.nome}</h5>
+                                        <h5 class="preco text-success">R$ ${baked.preco}</h5>
                                         <p class="descricao">${baked.descricao}</p>
+                                        <hr class="line"/>
+                                    </div>
+                                </li>
+                            </c:forEach>
+                        </ul>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="modal-adicionais" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLongTitle">Adicionais</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <ul class="col-12 cardapios">
+                            <c:forEach var="adicional" items="${adicionais}">
+                                <li class="menu-category titulopreco">
+                                    <div class="">
+                                        <h5 class="titulo text-danger">${adicional.nome}</h5>
+                                        <h5 class="preco text-success">R$ ${adicional.preco}</h5>
+                                        <p class="descricao">${adicional.descricao}</p>
+                                        <hr class="line"/>
                                     </div>
                                 </li>
                             </c:forEach>
@@ -439,9 +477,40 @@
                             <c:forEach var="burguer" items="${burguers}">
                                 <li class="menu-category titulopreco">
                                     <div class="">
-                                        <h5 class="titulo">${burguer.nome}</h5>
-                                        <h5 class="preco">${burguer.preco}</h5>
+                                        <h5 class="titulo text-danger">${burguer.nome}</h5>
+                                        <h5 class="preco text-success">R$ ${burguer.preco}</h5>
                                         <p class="descricao">${burguer.descricao}</p>
+                                        <hr class="line"/>
+                                    </div>
+                                </li>
+                            </c:forEach>
+                        </ul>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="modal-porcoes" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLongTitle">Porções</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <ul class="col-12 cardapios">
+                            <c:forEach var="porcao" items="${porcoes}">
+                                <li class="menu-category titulopreco">
+                                    <div class="">
+                                        <h5 class="titulo text-danger">${porcao.nome}</h5>
+                                        <h5 class="preco text-success">R$ ${porcao.preco}</h5>
+                                        <p class="descricao">${porcao.descricao}</p>
+                                        <hr class="line"/>
                                     </div>
                                 </li>
                             </c:forEach>

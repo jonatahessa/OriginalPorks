@@ -4,7 +4,8 @@ function main() {
 }
 
 function hideShowBroto() {
-  if (document.querySelector("#select-tipo").value == 'BAKED' || document.querySelector("#select-tipo").value == 'BURGUER') {
+  if (document.querySelector("#select-tipo").value == 'BAKED' || document.querySelector("#select-tipo").value == 'BURGUER'
+      || document.querySelector("#select-tipo").value == 'ADICIONAL' || document.querySelector("#select-tipo").value == 'PORCAO') {
     document.querySelector("#broto").style.display = 'none';
   } else {
     document.querySelector("#broto").style.display = 'block';

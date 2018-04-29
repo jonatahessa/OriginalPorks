@@ -117,6 +117,22 @@ public class DaoProduto {
         return executarConsulta(sql);
     }
     
+    public static List<Produto> listarPaginaInicialAdicional()
+            throws SQLException, Exception {
+        String sql = "SELECT * FROM tb_produto WHERE Ativo = 'SIM' AND "
+                + "Tipo = 'ADICIONAL' ORDER BY ID;";
+
+        return executarConsulta(sql);
+    }
+    
+    public static List<Produto> listarPaginaInicialPorcao()
+            throws SQLException, Exception {
+        String sql = "SELECT * FROM tb_produto WHERE Ativo = 'SIM' AND "
+                + "Tipo = 'PORCAO' ORDER BY ID;";
+
+        return executarConsulta(sql);
+    }
+    
     public static List<Produto> listarPaginaInicialPromocoes()
             throws SQLException, Exception {
         String sql = "SELECT * FROM tb_produto WHERE Ativo = 'SIM' AND "

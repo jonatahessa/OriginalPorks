@@ -35,6 +35,8 @@
                           <option value="DOCE" ${produto.tipo == 'DOCE' ? 'selected' : ''}>Pizza Doce</option>
                           <option value="BAKED" ${produto.tipo == 'BAKED' ? 'selected' : ''}>Baked Burguer</option>
                           <option value="BURGUER" ${produto.tipo == 'BURGUER' ? 'selected' : ''}>Burguer</option>
+                          <option value="ADICIONAL" ${produto.tipo == 'ADICIONAL' ? 'selected' : ''}>Adicional</option>
+                          <option value="PORCAO" ${produto.tipo == 'PORCAO' ? 'selected' : ''}>Porção</option>
                       </select>
                   </div>
 
