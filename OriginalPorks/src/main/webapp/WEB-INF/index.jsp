@@ -25,10 +25,11 @@
                     <ul class="nav h-100 justify-content-center align-items-center">
                         <li class="nav-item"><a class="nav-link hovered yellow-text" href="#section1"><h5>Home</h5></a></li>
                         <li class="nav-item"><a class="nav-link hovered yellow-text" href="#section2"><h5>Cardápio</h5></a></li>
-                        <li class="nav-item"><a class="nav-link hovered yellow-text" href="#section3"><h5>Eventos</h5></a></li>
-                        <li class="nav-item"><a class="nav-link hovered yellow-text" href="#section4"><h5>Shows</h5></a></li>
-                        <li class="nav-item"><a class="nav-link hovered yellow-text" href="#section5"><h5>Localização</h5></a></li>
-                        <li class="nav-item"><a class="nav-link hovered yellow-text" href="#section6"><h5>Contato</h5></a></li>
+                        <li class="nav-item"><a class="nav-link hovered yellow-text" href="#section3"><h5>Feijoada</h5></a></li>
+                        <li class="nav-item"><a class="nav-link hovered yellow-text" href="#section4"><h5>Eventos</h5></a></li>
+                        <li class="nav-item"><a class="nav-link hovered yellow-text" href="#section5"><h5>Shows</h5></a></li>
+                        <li class="nav-item"><a class="nav-link hovered yellow-text" href="#section6"><h5>Localização</h5></a></li>
+                        <li class="nav-item"><a class="nav-link hovered yellow-text" href="#section7"><h5>Contato</h5></a></li>
                     </ul>
                 </div>
             </div>
@@ -43,10 +44,11 @@
                         <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                             <a class="dropdown-item" href="#section1">Home</a>
                             <a class="dropdown-item" href="#section2">Cardápio</a>
-                            <a class="dropdown-item" href="#section3">Eventos</a>
-                            <a class="dropdown-item" href="#section4">Shows</a>
-                            <a class="dropdown-item" href="#section5">Localização</a>
-                            <a class="dropdown-item" href="#section6">Contato</a>
+                            <a class="dropdown-item" href="#section3">Feijoada</a>
+                            <a class="dropdown-item" href="#section4">Eventos</a>
+                            <a class="dropdown-item" href="#section5">Shows</a>
+                            <a class="dropdown-item" href="#section6">Localização</a>
+                            <a class="dropdown-item" href="#section7">Contato</a>
                         </div>
                     </div>
                 </div>
@@ -64,7 +66,7 @@
                         <div class="col-xs-12 col-sm-12 col-lg-5 align-self-center mobile-items-space background-white">
                             <h2>Nossa Casa</h2>
                             <p class="">Ideal para quem aprecia uma refeição saborosa e uma boa cerveja artesanal, nasce na zona sul de São Paulo o <strong>ORIGINAL PORKS</strong>.<br/>
-                                        Sabe aquele lugar gostoso para passar um tempo agradável com a família ou entre amigos e ainda ter uma experiência gastronômica e especial? Esse é o conceito do <strong>ORIGINAL PORKS</strong>, que resgata a velha forma de se cozinhar em fornos a lenha. Lá o tempo não passa, não dá vontade de ir embora... Além da gastronomia, ainda tem opções de entretenimento, com música, talk show, e o carisma do sócio Marcos Aurélio, conhecido por Filé, que além de ser um "chef" de mãos cheias, é um do melhores entendedores de cerveja do Brasil.</p>
+                                Sabe aquele lugar gostoso para passar um tempo agradável com a família ou entre amigos e ainda ter uma experiência gastronômica e especial? Esse é o conceito do <strong>ORIGINAL PORKS</strong>, que resgata a velha forma de se cozinhar em fornos a lenha. Lá o tempo não passa, não dá vontade de ir embora... Além da gastronomia, ainda tem opções de entretenimento, com música, talk show, e o carisma do sócio Marcos Aurélio, conhecido por Filé, que além de ser um "chef" de mãos cheias, é um do melhores entendedores de cerveja do Brasil.</p>
                         </div>
                     </div>
                 </div>
@@ -89,6 +91,22 @@
                 <div id="section2" class="col-xs-12 col-sm-12 col-md-10 col-lg-10 sec-pad">
                     <h1 class="text-light">Cardápio</h1>
                     <hr class="white-line"/>
+
+                    <div class="row justify-content-center">
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                            <div class="row justify-content-center">
+                                <div class="col-xs-12 col-sm-12 col-md-10 col-lg-10 back-baked text-center padded font-signika sessoes">
+                                    <div class="row justify-content-center">
+                                        <div class="col-11 black-menu">
+                                            <h1 class="text-light display-5">Volta ao mundo Original Porks</h1>
+                                            <h3 class="text-center text-light">Um festival de Baked Burgers com sabores de 14 países!</h3>
+                                            <button class="btn btn-warning btn-lg col-lg-4" type="button" data-toggle="modal" data-target="#modal-baked">Abrir</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
                     <div class="row justify-content-center">
                         <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 back-pizza text-center padded font-signika sessoes">
@@ -132,8 +150,8 @@
                         <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 back-burguer text-center padded font-signika sessoes">
                             <div class="row justify-content-center">
                                 <div class="col-11 black-menu">
-                                    <h1 class="text-light display-5">Nossos Adicionais</h1>
-                                    <button class="btn btn-warning btn-lg col-lg-4" type="button" data-toggle="modal" data-target="#modal-adicionais">Abrir</button>
+                                    <h1 class="text-light display-5">Classic Burguers</h1>
+                                    <button class="btn btn-warning btn-lg col-lg-4" type="button" data-toggle="modal" data-target="#modal-burguers">Abrir</button>
                                 </div>
                             </div>
                         </div>
@@ -149,20 +167,12 @@
                     </div>
 
                     <div class="row justify-content-center">
+
                         <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 back-burguer text-center padded font-signika sessoes">
                             <div class="row justify-content-center">
                                 <div class="col-11 black-menu">
-                                    <h1 class="text-light display-5">Classic Burguers</h1>
-                                    <button class="btn btn-warning btn-lg col-lg-4" type="button" data-toggle="modal" data-target="#modal-burguers">Abrir</button>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 back-baked text-center padded font-signika sessoes">
-                            <div class="row justify-content-center">
-                                <div class="col-11 black-menu">
-                                    <h1 class="text-light display-5">Baked Burguers</h1>
-                                    <button class="btn btn-warning btn-lg col-lg-4" type="button" data-toggle="modal" data-target="#modal-baked">Abrir</button>
+                                    <h1 class="text-light display-5">Nossos Adicionais</h1>
+                                    <button class="btn btn-warning btn-lg col-lg-4" type="button" data-toggle="modal" data-target="#modal-adicionais">Abrir</button>
                                 </div>
                             </div>
                         </div>
@@ -181,17 +191,11 @@
 
             <div class="row justify-content-center">
                 <div id="section3" class="col-xs-12 col-sm-12 col-md-10 col-lg-10 sec-pad">
-                    <h1>Eventos</h1>
+                    <h1>Feijoada</h1>
                     <hr class="black-line"/>
                     <div class="row justify-content-center">
-                        <div class="col-xs-12 col-sm-12 col-lg-7 mobile-items-space d-xs-none d-sm-none d-md-block d-lg-block">
-                            <img id="imagem-salao" class="img-fluid" src="./_imagens/salao-panoramica.jpg" alt="Imagem do salão">
-                        </div>
-
-                        <div class="col-xs-12 col-sm-12 col-lg-5 align-self-center mobile-items-space background-white">
-                            <h2>Seus eventos com a gente!</h2>
-                            <p class="">Faça o seu evento aqui, seja ele corporativo ou social. Aniversários, confraternizações, entre outros.<br/>
-                                        Temos tudo para fazer o seu evento ser inesquecível!</p>
+                        <div class="col-xs-12 col-sm-12 col-md-10 col-lg-8">
+                          <img class="img-fluid" src="./_imagens/feijoada2.JPG" alt="">
                         </div>
                     </div>
                 </div>
@@ -199,19 +203,54 @@
 
             <div class="row justify-content-center">
                 <div id="section4" class="col-xs-12 col-sm-12 col-md-10 col-lg-10 sec-pad">
+                    <h1>Eventos</h1>
+                    <hr class="black-line"/>
+                    <div class="row justify-content-center">
+                        <div class="col-xs-12 col-sm-12 col-lg-5 align-self-center mobile-items-space background-white">
+                            <h2>Copa do Mundo!</h2>
+                            <p class="">Venha assistir aos jogos da <strong>COPA DO MUNDO 2018</strong> com a gente.</p>
+                        </div>
+
+                        <div class="col-xs-12 col-sm-12 col-lg-7 mobile-items-space d-xs-none d-sm-none d-md-block d-lg-block">
+                            <img id="imagem-salao" class="img-fluid" src="./_imagens/copa-do-mundo.jpg" alt="">
+                        </div>
+                    </div>
+
+                    <div class="row justify-content-center sec-pad-min">
+                        <div class="col-xs-12 col-sm-12 col-lg-7 mobile-items-space d-xs-none d-sm-none d-md-block d-lg-block">
+                            <img id="imagem-salao" class="img-fluid" src="./_imagens/salao-panoramica.jpg" alt="Imagem do salão">
+                        </div>
+
+                        <div class="col-xs-12 col-sm-12 col-lg-5 align-self-center mobile-items-space background-white">
+                            <h2>Seus eventos com a gente!</h2>
+                            <p class="">Faça o seu evento aqui, seja ele corporativo ou social. Aniversários, confraternizações, entre outros.<br/>
+                            Eventos com rodízio de pizza, chopp artesanal e cervejas artesanais, faça seu orçamento em <a href="mailto:sap@originalporks.com.br">sap@originalporks.com.br</a>
+                            Temos tudo para fazer o seu evento ser inesquecível!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row justify-content-center">
+                <div id="section5" class="col-xs-12 col-sm-12 col-md-10 col-lg-10 sec-pad">
                     <h1>Shows</h1>
                     <hr class="black-line"/>
                     <div class="row justify-content-center">
                         <div class="col-xs-12 col-sm-12 col-lg-6 align-self-center mobile-items-space background-white">
                             <h2>Também temos shows!</h2>
                             <p>A <strong>Original Porks</strong> se preocupa em trazer os melhores e mais divertidos espetáculos pra você.<br/>
-                              Fique ligado aqui no site e no nosso Facebook para não perder nenhum!
+                            Todas as quintas música ao vivo (voz e violão) e Standup comedy uma vez por mês.<br/>
+                            Fique ligado aqui no site e no nossos Facebook e Instagram para não perder nenhum!
                             </p>
 
                             <div class="row justify-content-center">
-                              <div class="col-3 pad-bottom">
-                                <a href="https://www.facebook.com/originalporks1/" target="_blank"><img class="img-fluid" src="./_imagens/facebook.png" alt=""><h4 class="text-center">Clique!</h4></a>
-                              </div>
+                                <div class="col-2 pad-bottom">
+                                    <a href="https://www.facebook.com/originalporks1/" target="_blank"><img class="img-fluid" src="./_imagens/facebook.png" alt=""><h5 class="text-center">Clique!</h5></a>
+                                </div>
+
+                                <div class="col-2 pad-bottom">
+                                    <a href="https://www.instagram.com/original_porks/" target="_blank"><img class="img-fluid" src="./_imagens/instagram.png" alt=""><h5 class="text-center">Clique!</h5></a>
+                                </div>
                             </div>
                         </div>
 
@@ -223,7 +262,7 @@
             </div>
 
             <div class="row justify-content-center">
-                <div id="section5" class="col-xs-12 col-sm-12 col-md-8 col-lg-8 sessoes sec-pad">
+                <div id="section6" class="col-xs-12 col-sm-12 col-md-10 col-lg-10 sessoes sec-pad">
                     <h1>Localização</h1>
                     <hr class="black-line"/>
                     <h4 class="text-center">Av. Nossa Sra. de Sabará, 409 - Vila Campo Grande, São Paulo</h4>
@@ -232,13 +271,14 @@
             </div>
 
             <div class="row justify-content-center back-black">
-                <div id="section6" class="col-xs-12 col-sm-12 col-md-8 col-lg-8 sec-pad-min">
+                <div id="section7" class="col-xs-12 col-sm-12 col-md-10 col-lg-10 sec-pad-min">
                     <h1 class="text-light">Contato</h1>
                     <hr class="white-line"/>
                     <div class="row justify-content-center">
                         <div class="col-12 text-center">
                             <a class="text-light" href="tel:01155224931"><h1 class="display-4">5522-4931</h1></a><br/>
                             <a class="text-light" href="tel:01155460088"><h1 class="display-4">5546-0088</h1></a>
+                            <a class="text-light" href="mailto:sap@originalporks.com.br"><h3>sap@originalporks.com.br</h3></a>
                             <h4 class="text-warning">Delivery a partir das 18h</h4>
                             <p class="text-light">Copyright (c) Original Porks Copyright Holder All Rights Reserved.</p>
                             <p class="text-light">Developed by Jonata Hessa</p>
@@ -414,16 +454,35 @@
                     </div>
                     <div class="modal-body">
                         <ul class="col-12 cardapios">
-                            <c:forEach var="baked" items="${bakeds}">
-                                <li class="menu-category titulopreco">
-                                    <div class="">
-                                        <h5 class="titulo text-danger">${baked.nome}</h5>
-                                        <h5 class="preco text-success">R$ ${baked.preco}</h5>
-                                        <p class="descricao">${baked.descricao}</p>
-                                        <hr class="line"/>
-                                    </div>
-                                </li>
-                            </c:forEach>
+                            <li class="menu-category titulopreco">
+                                <img class="img-fluid" src="./_imagens/baked-brasileiro.JPG" alt="">
+                                <h3 class="text-success font-signika display-4">R$ 35,00</h3>
+                                <hr class="black-line" />
+                            </li>
+
+                            <li class="menu-category titulopreco">
+                                <img class="img-fluid" src="./_imagens/baked-arabe.JPG" alt="">
+                                <h3 class="text-success font-signika display-4">R$ 35,00</h3>
+                                <hr class="black-line" />
+                            </li>
+
+                            <li class="menu-category titulopreco">
+                                <img class="img-fluid" src="./_imagens/baked-argentino.JPG" alt="">
+                                <h3 class="text-success font-signika display-4">R$ 35,00</h3>
+                                <hr class="black-line" />
+                            </li>
+
+                            <li class="menu-category titulopreco">
+                                <img class="img-fluid" src="./_imagens/baked-chileno.JPG" alt="">
+                                <h3 class="text-success font-signika display-4">R$ 45,00</h3>
+                                <hr class="black-line" />
+                            </li>
+
+                            <li class="menu-category titulopreco">
+                                <img class="img-fluid" src="./_imagens/baked-portugues.JPG" alt="">
+                                <h3 class="text-success font-signika display-4">R$ 35,00</h3>
+                                <hr class="black-line" />
+                            </li>
                         </ul>
                     </div>
                     <div class="modal-footer">
