@@ -6,6 +6,39 @@ body {
   background-size: cover;
 }
 
+@font-face {
+    font-family: 'LogoFont'; /*a name to be used later*/
+    src: url('../_fonts/font-logo.ttf'); /*URL to font*/
+}
+
+@font-face {
+    font-family: 'CorpoFont'; /*a name to be used later*/
+    src: url('../_fonts/font-corpo.ttf'); /*URL to font*/
+}
+
+@font-face {
+    font-family: 'CorpoFontItalic'; /*a name to be used later*/
+    src: url('../_fonts/font-corpo-italic.ttf'); /*URL to font*/
+}
+
+.font-logo {
+  font-family: 'LogoFont';
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #000;
+}
+
+.font-logo-on-black {
+  font-family: 'LogoFont';
+}
+
+.corpo-font {
+  font-family: 'CorpoFont';
+}
+
+.corpo-font-italic {
+  font-family: 'CorpoFontItalic';
+}
+
 @media (max-width: 769px) {
   #menu-desk {
     display: none;
@@ -45,6 +78,10 @@ body {
 
   .padded {
     margin: 10px;
+  }
+
+  .big-font {
+    font-size: 27px;
   }
 }
 
@@ -209,23 +246,9 @@ body {
   background-color: #010101;
 }
 
-.contorno {
-    -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: #333;
-}
-
-.contorno-thin {
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: #333;
-}
-
 .padded {
   padding-top: 50px;
   padding-bottom: 50px;
-}
-
-.extra-lg {
-  font-size: 80px;
 }
 
 .no-border {

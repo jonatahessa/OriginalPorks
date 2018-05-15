@@ -23,13 +23,13 @@
                 </div>
                 <div class="col-10">
                     <ul class="nav h-100 justify-content-center align-items-center">
-                        <li class="nav-item"><a class="nav-link hovered yellow-text" href="#section1"><h5>Home</h5></a></li>
-                        <li class="nav-item"><a class="nav-link hovered yellow-text" href="#section2"><h5>Cardápio</h5></a></li>
-                        <li class="nav-item"><a class="nav-link hovered yellow-text" href="#section3"><h5>Feijoada</h5></a></li>
-                        <li class="nav-item"><a class="nav-link hovered yellow-text" href="#section4"><h5>Eventos</h5></a></li>
-                        <li class="nav-item"><a class="nav-link hovered yellow-text" href="#section5"><h5>Shows</h5></a></li>
-                        <li class="nav-item"><a class="nav-link hovered yellow-text" href="#section6"><h5>Localização</h5></a></li>
-                        <li class="nav-item"><a class="nav-link hovered yellow-text" href="#section7"><h5>Contato</h5></a></li>
+                        <li class="nav-item"><a class="nav-link hovered text-warning corpo-font big-font" href="#section1"><h5 class="big-font">Home</h5></a></li>
+                        <li class="nav-item"><a class="nav-link hovered text-warning corpo-font big-font" href="#section2"><h5 class="big-font">Cardápio</h5></a></li>
+                        <li class="nav-item"><a class="nav-link hovered text-warning corpo-font big-font" href="#section3"><h5 class="big-font">Feijoada</h5></a></li>
+                        <li class="nav-item"><a class="nav-link hovered text-warning corpo-font big-font" href="#section4"><h5 class="big-font">Eventos</h5></a></li>
+                        <li class="nav-item"><a class="nav-link hovered text-warning corpo-font big-font" href="#section5"><h5 class="big-font">Shows</h5></a></li>
+                        <li class="nav-item"><a class="nav-link hovered text-warning corpo-font big-font" href="#section6"><h5 class="big-font">Localização</h5></a></li>
+                        <li class="nav-item"><a class="nav-link hovered text-warning corpo-font big-font" href="#section7"><h5 class="big-font">Contato</h5></a></li>
                     </ul>
                 </div>
             </div>
@@ -56,7 +56,7 @@
 
             <div class="row justify-content-center">
                 <div id="section1" class="col-xs-12 col-sm-12 col-md-10 col-lg-10 sec-pad">
-                    <h1>Home</h1>
+                    <h1 class="font-logo display-3 text-warning">Home</h1>
                     <hr class="black-line"/>
                     <div class="row justify-content-center">
                         <div class="col-xs-12 col-sm-12 col-lg-7 mobile-items-space d-xs-none d-sm-none d-md-block d-lg-block">
@@ -64,7 +64,7 @@
                         </div>
 
                         <div class="col-xs-12 col-sm-12 col-lg-5 align-self-center mobile-items-space background-white">
-                            <h2>Nossa Casa</h2>
+                            <h2 class="corpo-font display-4">Nossa Casa</h2>
                             <p class="">Ideal para quem aprecia uma refeição saborosa e uma boa cerveja artesanal, nasce na zona sul de São Paulo o <strong>ORIGINAL PORKS</strong>.<br/>
                                 Sabe aquele lugar gostoso para passar um tempo agradável com a família ou entre amigos e ainda ter uma experiência gastronômica e especial? Esse é o conceito do <strong>ORIGINAL PORKS</strong>, que resgata a velha forma de se cozinhar em fornos a lenha. Lá o tempo não passa, não dá vontade de ir embora... Além da gastronomia, ainda tem opções de entretenimento, com música, talk show, e o carisma do sócio Marcos Aurélio, conhecido por Filé, que além de ser um "chef" de mãos cheias, é um do melhores entendedores de cerveja do Brasil.</p>
                         </div>
@@ -76,7 +76,7 @@
                 <div class="col-xs-12 col-sm-12 col-md-10 col-lg-10">
                     <div class="row justify-content-center">
                         <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5 align-self-center background-white mobile-items-space">
-                            <h3>Burguers</h3>
+                            <h3 class="corpo-font display-4">Burguers</h3>
                             <p class="">São criações do Marcos, as opções de hambúrguer artesanal, feitas a partir de um "blend" exclusivo de carnes nobres, normalmente contando carne de porco. A carne de porco vem ganhando cada vez mais espaço nos cardápios por ser uma opção saudável e muito saborosa. Uma vez preparada a carne, o sanduiche e assado lentamente e vai sendo aos poucos defumado e caramelizado. E para fechar com chave de ouro, usam massa de pizza para montar o sanduiche. Assim nasceu o "baked burguer", um sanduiche irresistível que você não pode deixar de provar.</p>
                         </div>
 
@@ -89,7 +89,7 @@
 
             <div class="row justify-content-center back-black section-cardapio">
                 <div id="section2" class="col-xs-12 col-sm-12 col-md-10 col-lg-10 sec-pad">
-                    <h1 class="text-light">Cardápio</h1>
+                    <h1 class="font-logo-on-black display-3 text-warning">Cardápio</h1>
                     <hr class="white-line"/>
 
                     <div class="row justify-content-center">
@@ -191,7 +191,7 @@
 
             <div class="row justify-content-center">
                 <div id="section3" class="col-xs-12 col-sm-12 col-md-10 col-lg-10 sec-pad">
-                    <h1>Feijoada</h1>
+                    <h1 class="font-logo display-3 text-warning">Feijoada</h1>
                     <hr class="black-line"/>
                     <div class="row justify-content-center">
                         <div class="col-xs-12 col-sm-12 col-md-10 col-lg-8">
@@ -203,11 +203,11 @@
 
             <div class="row justify-content-center">
                 <div id="section4" class="col-xs-12 col-sm-12 col-md-10 col-lg-10 sec-pad">
-                    <h1>Eventos</h1>
+                    <h1 class="font-logo display-3 text-warning">Eventos</h1>
                     <hr class="black-line"/>
                     <div class="row justify-content-center">
                         <div class="col-xs-12 col-sm-12 col-lg-5 align-self-center mobile-items-space background-white">
-                            <h2>Copa do Mundo!</h2>
+                            <h2 class="corpo-font display-4">Copa do Mundo!</h2>
                             <p class="">Venha assistir aos jogos da <strong>COPA DO MUNDO 2018</strong> com a gente.</p>
                         </div>
 
@@ -222,7 +222,7 @@
                         </div>
 
                         <div class="col-xs-12 col-sm-12 col-lg-5 align-self-center mobile-items-space background-white">
-                            <h2>Seus eventos com a gente!</h2>
+                            <h2 class="corpo-font display-4">Seus eventos com a gente!</h2>
                             <p class="">Faça o seu evento aqui, seja ele corporativo ou social. Aniversários, confraternizações, entre outros.<br/>
                             Eventos com rodízio de pizza, chopp artesanal e cervejas artesanais, faça seu orçamento em <a href="mailto:sap@originalporks.com.br">sap@originalporks.com.br</a>
                             Temos tudo para fazer o seu evento ser inesquecível!</p>
@@ -233,22 +233,22 @@
 
             <div class="row justify-content-center">
                 <div id="section5" class="col-xs-12 col-sm-12 col-md-10 col-lg-10 sec-pad">
-                    <h1>Shows</h1>
+                    <h1 class="font-logo display-3 text-warning">Shows</h1>
                     <hr class="black-line"/>
                     <div class="row justify-content-center">
                         <div class="col-xs-12 col-sm-12 col-lg-6 align-self-center mobile-items-space background-white">
-                            <h2>Também temos shows!</h2>
+                            <h2 class="corpo-font display-4">Também temos shows!</h2>
                             <p>A <strong>Original Porks</strong> se preocupa em trazer os melhores e mais divertidos espetáculos pra você.<br/>
                             Todas as quintas música ao vivo (voz e violão) e Standup comedy uma vez por mês.<br/>
                             Fique ligado aqui no site e no nossos Facebook e Instagram para não perder nenhum!
                             </p>
 
                             <div class="row justify-content-center">
-                                <div class="col-2 pad-bottom">
+                                <div class="col-3 pad-bottom">
                                     <a href="https://www.facebook.com/originalporks1/" target="_blank"><img class="img-fluid" src="./_imagens/facebook.png" alt=""><h5 class="text-center">Clique!</h5></a>
                                 </div>
 
-                                <div class="col-2 pad-bottom">
+                                <div class="col-3 pad-bottom">
                                     <a href="https://www.instagram.com/original_porks/" target="_blank"><img class="img-fluid" src="./_imagens/instagram.png" alt=""><h5 class="text-center">Clique!</h5></a>
                                 </div>
                             </div>
@@ -263,7 +263,7 @@
 
             <div class="row justify-content-center">
                 <div id="section6" class="col-xs-12 col-sm-12 col-md-10 col-lg-10 sessoes sec-pad">
-                    <h1>Localização</h1>
+                    <h1 class="font-logo display-3 text-warning">Localização</h1>
                     <hr class="black-line"/>
                     <h4 class="text-center">Av. Nossa Sra. de Sabará, 409 - Vila Campo Grande, São Paulo</h4>
                     <iframe class="col-12" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14618.150957205344!2d-46.688547210681136!3d-23.656720282734696!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x4bd0767fd1f3d906!2sOriginal+Porks!5e0!3m2!1spt-BR!2sbr!4v1522069139860" height="450" allowfullscreen></iframe>
@@ -272,11 +272,11 @@
 
             <div class="row justify-content-center back-black">
                 <div id="section7" class="col-xs-12 col-sm-12 col-md-10 col-lg-10 sec-pad-min">
-                    <h1 class="text-light">Contato</h1>
+                    <h1 class="font-logo-on-black display-3 text-warning">Contato</h1>
                     <hr class="white-line"/>
                     <div class="row justify-content-center">
                         <div class="col-12 text-center">
-                            <a class="text-light" href="tel:01155224931"><h1 class="display-4">5522-4931</h1></a><br/>
+                            <a class="text-light" href="tel:01155224931"><h1 class="display-4">5522-4931</h1></a>
                             <a class="text-light" href="tel:01155460088"><h1 class="display-4">5546-0088</h1></a>
                             <a class="text-light" href="mailto:sap@originalporks.com.br"><h3>sap@originalporks.com.br</h3></a>
                             <h4 class="text-warning">Delivery a partir das 18h</h4>
